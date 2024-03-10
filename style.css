@@ -1,0 +1,62 @@
+body {
+    background-image: url(bggg.png);
+}
+p.title {
+    font-size: 200px;
+    color:white;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    margin-bottom: 0;
+}
+p.undertitle {
+    margin-top: 0;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+div.buttoncenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.start {
+    width:300px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+    background-color: #004073;
+    color:darkgray;
+}
+#mix {
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}
+#math {
+    color: #004073;
+}
+#tm{
+    font-size: 20px;
+}
+.manrope-title {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+@keyframes moveUp {
+    from {
+        background-position: 0 0; /* Initial background position */
+    }
+    to {
+        background-position: 0 -20000vh; /* Move background up by the height of the container */
+    }
+  }
+  
+  body {
+    animation: moveUp 9999s linear infinite; /* Adjust the duration and timing function as needed */
+  }
